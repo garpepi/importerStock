@@ -28,6 +28,6 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->command('Import:AmiIDX --force')
-                 ->dailyAt('18:06');
+                 ->dailyAt('18:08');
     }
 }
