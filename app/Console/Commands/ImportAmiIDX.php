@@ -93,6 +93,7 @@ class ImportAmiIDX extends Command
               echo $sign."\r";
               //
               $fetchData = explode(',',$line);
+			  dd($fetchData);
               $import = \App\Idx_stock_history::firstOrCreate(
                 [
                   'date' => date('Y-m-d',strtotime( $fetchData[0])),
