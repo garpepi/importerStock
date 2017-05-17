@@ -14,7 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
-		Commands\ImportAmiIDX::class
+    		Commands\ImportAmiIDX::class,
+        Commands\ImportIDX::class
     ];
 
     /**
